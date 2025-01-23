@@ -1,0 +1,36 @@
+database:
+  address: 'localhost'
+  port: '3306'
+  database: 'database'
+  username: 'root'
+  password: 'root'
+debug:
+  enable: true
+task:
+  time: 60
+  syncdelaytime: 1
+inv:
+  PlayerInvInMySQLTitle: '%player% 在MySQL的背包数据'
+  PlayerInvInNewTitle: '%player% 现在的背包数据'
+title:
+  enable: true
+messages:
+  syncTitle: '§a同步完成.'
+  syncSubTitle: '§a现在你可以游玩游戏了~'
+  inSyncTitle: '§a正在同步数据'
+  inSyncSubTitle: '§f§n请勿进行其他操作'
+  failSyncTitle: '§c同步数据失败!!!'
+  failSyncSubTitle: '§c§n请联系管理员!!!已默认恢复登陆前数据.'
+  failSync: '§c同步数据失败!!!§c§n请联系管理员!!!已默认恢复登陆前数据.'
+  reloaded: '§a插件重载成功'
+  noPlayer: '§c你不是一个玩家!'
+  noPermisson: '§c没有权限使用'
+  noPlayerInvData: '§c没有找到 %player% 的背包数据'
+  failInInspectTable: '§cPlayersSQL_data 数据库表检查出错!!!'
+  successCreateTable: '§aPlayersSQL_data 数据库表创建成功.'
+  failCreateTable: '§cPlayersSQL_data 数据库表创建失败!!!'
+  failInSave: '§c玩家 %player% 的数据保存到MySQL数据库失败!!!'
+  failInLoad: '§c玩家 %player% 的数据在MySQL数据库载入玩家本身失败!!!'
+  debugInSave: '§a玩家 %player% 的数据成功保存到MySQL数据库.'
+  debugInLoad: '§a玩家 %player% 的数据成功在MySQL数据库载入到玩家本身.'
+  failInCheckInv: '§c查看 %player% 的背包数据失败!!!'

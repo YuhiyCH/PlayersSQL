@@ -1,0 +1,10 @@
+name: PlayersSQL
+version: '2.2'
+main: cn.xxsnow.playersSQL.PlayersSQL
+api-version: '1.20'
+author: XxSnow_
+depend: [NBTAPI]
+commands:
+  playerssql:
+    description: PlayersSQL main command
+    permission: playerssql.use
